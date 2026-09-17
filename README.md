@@ -1,5 +1,58 @@
-# Vue 3 + Vite
+# Minimal Tasks
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern, responsive to-do list built with Vue 3, Vite, and Tailwind CSS.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- Add, edit, complete, and delete tasks
+- Filter tasks by All, Active, and Completed
+- Category chips for Work, Personal, and Urgent tasks
+- Progress bar with completed task count
+- Dark mode toggle with saved preference
+- Task persistence with browser `localStorage`
+- Responsive layout with subtle transitions and empty states
+
+## Tech Stack
+
+- Vue 3
+- Vite
+- Tailwind CSS v4
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+  App.vue
+  main.js
+  style.css
+  components/
+    HelloWorld.vue
+```
+
+The main application lives in `src/components/HelloWorld.vue`. Global Tailwind setup and dark-mode variant support live in `src/style.css`.
